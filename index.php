@@ -45,7 +45,7 @@
 			<div class="jumbotron contactBackground">
 	  
 				<div style="padding-bottom: 9px; margin: 40px 0 20px; border-bottom: 1px solid #3e1c1c;">
-					<h2>SkyNet Proxy</h2>
+					<h2>Proxy</h2>
 				</div>
 
 			
