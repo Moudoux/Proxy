@@ -37,6 +37,14 @@ You can choose between AES-256 and Base64 for encrypting/encoding the url, Base6
 
 The AES-256 encryption uses a different key for each session meaning a link will only be valid for you and for the time you have your browser open, if you use Base64 the link will never change and always be valid.
 
+### Caching
+
+This proxy will cache html files to `cache` and images to `img-cache` to allow for faster ussage.
+
+### Other things to note
+
+This proxy will remove any JavaScript to prevent tracking, it will also rewrite any external resources (CSS, Images, etc) to go through the proxy.
+
 ### License
 
 This is licensed under the MIT license.
