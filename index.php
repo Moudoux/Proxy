@@ -4,11 +4,11 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	   
-		<meta name="description" content="Admin docs for OpenTexon staff">
-		<meta name="author" content="OpenTexon">
+		<meta name="description" content="">
+		<meta name="author" content="">
 		<link rel="icon" href="favicon.ico">
 
-		<title>SkyNet Proxy</title>
+		<title>Proxy</title>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<style>
@@ -40,8 +40,7 @@
 	</head>
 	<body>
 
-		<div id="_skynet_navbar_"></div>
-		<br><br><br>
+
 		<div class="container">
 			<div class="jumbotron contactBackground">
 	  
@@ -83,7 +82,7 @@
 		<script>
 		
 			function load_page() {
-				var file = "https://api.sky-net.me/proxy/proxy?u=" + btoa(document.getElementById("q").value);
+				var file = "proxy?u=" + btoa(document.getElementById("q").value);
 				window.location = file;
 			}
 			
