@@ -23,6 +23,17 @@ $ sudo apt-get update && sudo apt-get upgrade
 $ sudo apt-get install php7.0-mcrypt php7.0 mcrypt curl php7.0-curl
 ```
 
+### TOR
+
+This proxy can use the hidden services (TOR, .onion links) but in order for it to work you will need to install the tor proxy:
+
+```sh
+$ sudo apt-get update && sudo apt-get upgrade
+$ sudo apt-get install tor
+```
+
+Make sure to set the tor proxy to use port `9050`
+
 ### Ussage
 
 Just navigate the the index file where you put the two files. Then enter any url and press `Go!` and it will take you to `proxy.php?u=<URL>`
