@@ -34,7 +34,7 @@ $ sudo apt-get install tor
 
 Make sure to set the tor proxy to use port `9050`
 
-### Ussage
+### Usage
 
 Just navigate the the index file where you put the two files. Then enter any url and press `Go!` and it will take you to `proxy.php?u=<URL>`
 
